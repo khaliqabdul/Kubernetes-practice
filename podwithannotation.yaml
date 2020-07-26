@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: podwithannotation
+  annotations:
+    createdBy: "Abdul khaliq Azeemi"
+    email: khaliqazeemi@yahoo.com
+spec:
+  containers:
+  - name: container-new
+    image: aamirpinger/helloworld:latest
+    ports:
+    - containerPort: 80  

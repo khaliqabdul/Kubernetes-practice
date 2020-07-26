@@ -1,0 +1,23 @@
+kind: ReplicaSet
+apiVersion: apps/v1
+metadata:
+  name: my-replicaset
+spec:
+  selector:
+    matchExpressions:
+      - key: app
+        operator: In
+        values:
+        - rstest
+  replicas: 3
+  template:
+    metadata:
+     labels:
+       app: rstest
+    spec:
+      containers:
+      - name: container1
+        image: aamirpinger/helloworld:latest
+        ports:
+        - containerPort: 80
+        
