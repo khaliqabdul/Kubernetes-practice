@@ -1,1 +1,2 @@
 2nd fast-forward merge
+Merge commit using CLI
