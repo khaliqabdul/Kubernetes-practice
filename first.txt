@@ -1,3 +1,4 @@
 fast-forwad merge
 fast forward merge using UI
 Merge commit using command line
+updated first.txt
