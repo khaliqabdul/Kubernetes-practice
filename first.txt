@@ -3,3 +3,4 @@ fast forward merge using UI
 Merge commit using command line
 updated first.txt
 updated for rebase in UI
+updated in master
